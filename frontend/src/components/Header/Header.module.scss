@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  align-items: center;
+  .wrap {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    cursor: pointer;
+    .account-img {
+      width: 32px;
+      height: 36px;
+    }
+    .account-name {
+      color: var(--nineth-color);
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: -0.63px;
+    }
+  }
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+}
+
+.btn-link,
+.btn-logout {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+.btn-logout {
+  border-top: 1px solid var(--eleventh-color);
+}
+.text {
+  color: var(--nineth-color);
+  font-family: "Noto Sans";
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -0.42px;
+}

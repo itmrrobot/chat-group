@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --first-color: #252329;
+  --second-color: #120F13;
+  --third-color: #2d9cdb;
+  --fourth-color: #828282;
+  --fifth-color: #e0e0e0;
+  --sixth-color: #bdbdbd;
+  --seventh-color: #2f80ed;
+  --eighth-color: #fff;
+  --nineth-color: #e0e0e0;
+  --tenth-color: #00000040;
+  --eleventh-color: #3c393f;
+  --twenth-color: #333;
+  --dangerous-color: #ff0000;
+  --thirdteen-color: #f5f5f5;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: normal;
+  font-style: normal;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: var(--first-color);
+}
+
+.ant-modal .ant-modal-content {
+  border-radius: 24px;
+background: var(--second-color);
+}
+
+.ant-typography {
+  display: block;
+  color: #F5F5F5;
+font-family: "Noto Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.ant-dropdown .ant-dropdown-menu{
+  border-radius: 12px;
+border: 1px solid #3C393F;
+background: #252329;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
+}

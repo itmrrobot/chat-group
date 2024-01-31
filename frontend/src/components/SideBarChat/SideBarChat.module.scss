@@ -1,0 +1,164 @@
+.wrapper {
+  width: 25%;
+  background: #120f13;
+  position: relative;
+  height: 100vh;
+  padding-right: 25.6px;
+  .left-jc {
+    justify-content: left !important;
+    gap: 12px;
+  }
+  .wrap {
+    padding: 17.24px 0px 17.24px 32px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    .name {
+      color: #e0e0e0;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.63px;
+    }
+    .btn-create {
+      border-radius: 8px;
+      background: #252329;
+      padding: 6px;
+      border: none;
+      display: flex;
+      cursor: pointer;
+    }
+  }
+  .search {
+    margin-left: 32px;
+    border-radius: 8px;
+    background: #3c393f;
+    display: flex;
+    align-items: center;
+    padding: 15px 12px;
+    gap: 11px;
+    margin-top: 20px;
+    .search-input {
+      background-color: transparent;
+      border: none;
+      outline: none;
+    }
+  }
+}
+
+.list-channels {
+  margin: 35px 0px 0px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .channel-sign {
+      width: 42px;
+      padding: 9px;
+      color: #fff;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: -0.63px;
+      text-transform: uppercase;
+      border-radius: 8px;
+      background: #252329;
+    }
+    .channel-name {
+      color: #bdbdbd;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.63px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.wrap-account {
+  padding: 12px 12px 12px 32px;
+  background: #0b090c;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  .account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .account-wrap {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .account-img {
+    width: 42px;
+    height: 42px;
+  }
+  .account-name {
+    color: #828282;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.63px;
+  }
+}
+
+.btn-link,
+.btn-logout {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+.btn-logout {
+  border-top: 1px solid #3C393F;;
+}
+.text {
+  color: #e0e0e0;
+  font-family: "Noto Sans";
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -0.42px;
+}
+
+.channel-title {
+  color: #e0e0e0;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.63px;
+  text-transform: uppercase;
+  margin: 25px 0 17px 32.99px;
+}
+
+.channel-desc {
+  color: #e0e0e0;
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.63px;
+  margin: 0 0 43.54px 32.99px;
+}
+
+.item-members {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  margin: 8px 0 0 32.99px;
+  .avatar-member {
+    width: 42px;
+    height: 42px;
+  }
+  .member-name {
+    color: #828282;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.63px;
+  }
+}

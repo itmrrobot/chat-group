@@ -1,0 +1,93 @@
+.wrapper {
+  text-align: center;
+  margin-top: 57.37px;
+  .title {
+    color: #e0e0e0;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: -1.26px;
+  }
+  .text {
+    color: #e0e0e0;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.63px;
+  }
+}
+
+.table {
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  margin: 44.06px 297.04px 0;
+  .jc-space-between {
+    justify-content: space-between;
+  }
+  .bd-b {
+      border-bottom: none !important;
+  }
+  .row {
+    display: flex;
+    gap: 163px;
+    align-items: center;
+    padding: 0 49.5px;
+    border-bottom: 1px solid #D3D3D3;
+    text-align: left;
+    .wrap {
+      text-align: left;
+    }
+    .sub-title {
+      margin: 28.32px 0 4px;
+      color: #e0e0e0;
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: -0.84px;
+    }
+    .sub-text {
+      margin-bottom: 29.51px;
+      color: #828282;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: -0.455px;
+    }
+    .btn-edit {
+      border-radius: 12px;
+      border: 1px solid #e0e0e0;
+      padding: 8px 32px;
+      cursor: pointer;
+      text-decoration: none;
+      color: #828282;
+    }
+    .name {
+      color: #bdbdbd;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: -0.455px;
+      width: 20%;
+    }
+    .account-img {
+        margin: 12px 0 18px;
+        float: left;
+        width: 72px;
+        height: 72px;
+    }
+    .mg-28 {
+        margin: 28px 0;
+    }
+    .info {
+        width: 80%;
+        color: #e0e0e0;
+        .avatar {
+          width: 72px;
+          height: 72px;
+          border-radius: 8px;
+        }
+    }
+  }
+}
+
+.df {
+  display: flex;
+  margin: 14.64px 297.04px 237.76px;
+  justify-content: space-between;
+  color: #bdbdbd;
+}

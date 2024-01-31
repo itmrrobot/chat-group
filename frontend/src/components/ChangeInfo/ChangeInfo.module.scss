@@ -1,0 +1,75 @@
+@use "../PersonalInfo/PersonalInfo.module.scss";
+
+.btn-back {
+  color: var(--third-color);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.63px;
+  text-decoration: none;
+  display: flex;
+  text-align: left;
+  margin: 0 297.04px 0;
+  gap: 4px;
+}
+
+.table {
+  .g-28 {
+    gap: 28px;
+  }
+  .row {
+    border-bottom: none;
+    .text-change {
+      color: var(--fourth-color);
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: -0.455px;
+    }
+  }
+}
+.form {
+  text-align: left;
+  margin: 32px 0 42.6px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    .form-label {
+      color: var(--fifth-color);
+    }
+    .form-input {
+      padding: 17px 18px;
+      width: 417px;
+      border-radius: 12px;
+      border: 1px solid var(--fourth-color);
+      outline: none;
+    }
+    .h-92 {
+      height: 92px;
+    }
+    ::placeholder {
+      color: var(--sixth-color);
+      font-family: "Noto Sans";
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: -0.455px;
+    }
+  }
+  .btn-save {
+    padding: 8px 24px;
+    border-radius: 8px;
+    background: var(--seventh-color);
+    color: var(--eighth-color);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.56px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+input[type="text"][disabled] {
+  color: var(--nineth-color);
+}

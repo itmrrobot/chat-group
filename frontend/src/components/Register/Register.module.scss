@@ -1,0 +1,13 @@
+@use "../Login/Login.module.scss";
+
+.form-wrap {
+    .form {
+        .title {
+            margin: 0;
+        }
+        .desc {
+            margin: 14.5px 0 34.66px;
+            color: #E0E0E0;
+        }
+    }
+}

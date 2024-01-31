@@ -1,0 +1,108 @@
+.model-create-title .ant-typography {
+  display: block;
+  color: var(--thirdteen-color);
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.form {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  .rs {
+    resize: none;
+  }
+  .form-input {
+    padding: 12px 20px;
+    border-radius: 8px;
+    background: var(--eleventh-color);
+    margin-bottom: 24px;
+    border: none;
+    color: var(--nineth-color);
+  }
+  .input-search {
+    background: inherit;
+    border: none;
+    outline: none;
+    color: var(--nineth-color);
+    width: 100%;
+  }
+  .wrap-btn {
+    text-align: right;
+    .btn-save {
+      padding: 11px 40px;
+      border-radius: 8px;
+      background: var(--seventh-color);
+      border: none;
+      color: var(--eighth-color);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+      cursor: pointer;
+    }
+  }
+}
+
+.wrap-search {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  .dropdown {
+    position: absolute;
+    padding: 10px 10px 15px;
+    top: 45px;
+    left: 0px;
+    width: 100%;
+    border-radius: 8px;
+    background: var(--first-color);
+    z-index: 99;
+    .item {
+      cursor: pointer;
+      color: var(--fourth-color);
+      font-family: "Noto Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: capitalize;
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      .sign {
+        border-radius: 3px;
+        background: var(--seventh-color);
+        padding: 2px 5px;
+        color: var(--eighth-color);
+        font-family: "Noto Sans";
+        font-size: 12px;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+.list-choose {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+  .item-choose {
+    padding: 4px 6px;
+    border-radius: 8px;
+    background: var(--eleventh-color);
+    color: var(--fourth-color);
+    position: relative;
+    .close-icon {
+      position: absolute;
+      top: -5px;
+      right: -7px;
+      cursor: pointer;
+    }
+  }
+}
